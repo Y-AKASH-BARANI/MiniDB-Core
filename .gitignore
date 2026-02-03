@@ -65,8 +65,8 @@ venv.bak/
 config.local.py
 *.local
 
-# MiniDB-Core specific
-data.json
+# MiniDB-Core specific - ignore entire data directory
+data/
 *.db
 *.sqlite
 *.log
